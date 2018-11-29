@@ -9,3 +9,5 @@
 - Create a Github.com account and username.
 
 - Optional: Get a free Github student pack. Public repositories are free.  But to keep your repositories private, you need to either pay or confirm you’re a student. 
+
+Add a new line
