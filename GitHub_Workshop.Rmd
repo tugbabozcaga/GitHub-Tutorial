@@ -1,5 +1,5 @@
 ---
-title: 'GitHub Desktop'
+title: 'Workshop: GitHub with GIU'
 author: "| Tugba Bozcaga\n| MIT   \n|"
 date: "30 November 2018"
 output:
@@ -12,13 +12,15 @@ output:
 editor_options:
   chunk_output_type: console
 ---
+# Introduction
+
 ##
 
-Slides: [https://github.com/tugbabozcaga](https://github.com/tugbabozcaga).
+Slides: [https://github.com/tugbabozcaga/GitHub-Tutorial](https://github.com/tugbabozcaga/GitHub-Tutorial).
 
 Resource: Berkeley Initiative for Transparency in Social Sciences,  [https://www.bitss.org/](https://www.bitss.org/).
 
-# What is Version Control?
+# What is Version Control
 
 ## What is Git
 
@@ -62,8 +64,14 @@ Resource: Berkeley Initiative for Transparency in Social Sciences,  [https://www
 **Pros:** Easy adoption.   
 
 **Cons:** Lots of files for each document, hard to see changes of your own and others, hard to track the time of changes, errors and time costs.     
-  
-## Github:  
+
+## We want to avoid this situation 
+
+\centering
+
+\includegraphics[height=2.8in]{Images/phdcomics.png}
+
+## Github
 
 1 - Name your file `filename` (ideally `01_filename`).
 2 - Takes a snapshot of your work every time you complete relevant change. 
@@ -72,12 +80,6 @@ Resource: Berkeley Initiative for Transparency in Social Sciences,  [https://www
 **Pros:** One file per document, track differences across all versions, easily follow when others make a change, works with the cloud. 
 
 **Cons:** Harder adoption.   
-
-## We want to avoid this situation:   
-
-\centering
-
-\includegraphics[height=2.8in]{Images/phdcomics.png}
 
 ## Other reasons to use git
 
@@ -88,7 +90,7 @@ To access a whole new world of knowledge!
 
 # Exercises
 
-## Three Exercises: 
+## Three Exercises
 
 1 - **Work on a solo project**.  
 
@@ -98,24 +100,22 @@ To access a whole new world of knowledge!
 
 3 - Collaborate with another person in a project.    
 
-## Exercise #1: 
+## Exercise #1
 
 We start on Desktop.
 
 -  Click **File** and **New Repository**.   
--  Name it **My-First-Depository** and check "Initialize this repository with a README" (Not required but usually a good idea). Find the location of the new repository folder in your computer.
+-  Name it **My-First-Repository** and check "Initialize this repository with a README" (Not required but usually a good idea). Find the location of the new repository folder in your computer.
+- Click **Publish repository**. Now your repository is online on Github.com. 
+- You can visit your online repository by clicking **Repository** and **View on Github** in the menu. 
+
+## Exercise #1
 -  Drag any text file to your repository folder.  
 -  Type "My first changes" in your text file. 
 -  Check the GitHub Desktop. You will see the change you just made. Click **Commit** to confirm your change. (You can edit and commit as often as you like, GitHub Desktop will memorize all the changes you committed but they won't appear online until you push.)
-
-## Exercise #1: 
-
-- Click **Publish repository**. Now your repository is online on Github.com. 
-- You can visit your online repository by clicking **Repository** and **View on Github** in the menu. 
-- Go back to your file and make additional changes. **Commit** your changes. (You can edit and commit as often as you like, GitHub Desktop will memorize all the changes you committed but they won't appear online until you **Push**.)
 - Click **Push** to see your changes online. 
 
-## Three Exercises: 
+## Three Exercises
 
 1 - Work on a solo project.  
 
@@ -125,27 +125,26 @@ We start on Desktop.
 
 3 - Collaborate with another person in a project.    
 
-## Exercise #2a: 
+## Exercise #2a
 
 We start in the Cloud.
 
 -  Sign in your [github.com](github.com) account.   
 -  Find the repo **tugbabozcaga/GitHub-Tutorial**.   
 -  **Fork** the repo (You could also simply clone or download, but fork for this one because we'll send a pull request to the repository owner later.).  
--  Now click **Clone** and **Open in Desktop**.
--  Now create your own repo. Initiate readme and make some edits.   
+-  Now click **Clone** and **Open in Desktop**. Now you have downloaded your fork to your desktop too.   
 
-## Exercise #2a: 
+## Exercise #2a
 
 Now we are on Desktop.
 
 - You will see a window with the button **Clone** in your Github Desktop, click it. 
-- A folder named **GitHub-Tutorial** has been copied to your computer. Find it. 
-- Open the Birthdays.R file. Type your birthday. 
-- Check the GitHub Desktop. You will see the change you just made. Click **Commit** to confirm your change. (You can edit and commit as often as you like, GitHub Desktop will memorize all the changes you committed but they won't appear online until you push.)
+- A folder named **GitHub-Tutorial** has been downloaded to your computer. Find it. 
+- Open the Birthdays.R file. Type your birthday. Save.
+- Go to GitHub Desktop. You will see the change you just made. Click **Commit** to confirm your change. 
 - **Push**.Now if you visit your own Github-Tutorial fork (youraccount/GitHub-Tutorial), you will see all the changes you made through GitHub Desktop.
 
-## Three Exercises: 
+## Three Exercises
 
 1 - Work on a solo project.  
 
@@ -155,7 +154,7 @@ Now we are on Desktop.
 
 3 - Collaborate with another person in a project.      
     
-## Exercise #2b: 
+## Exercise #2b
 
 Now you made changes in this other person's project but they only appear in your fork! You want to send her your suggestions/revisions.
 
@@ -163,7 +162,7 @@ Now you made changes in this other person's project but they only appear in your
 - Click **Create Pull Request**. Type a short summary explaining your change in the title of the box that emerges, and click **Create Pull Request** again.
 - The owner of the repository will click the following options to accept your changes: **View the Pull Request**, **Merge Pull Request**, and **Confirm Merge**. That means now all your changes have been added to the original folder.
 
-## Three Exercises: 
+## Three Exercises 
 
 1 - Work on a solo project.  
 
@@ -173,30 +172,27 @@ Now you made changes in this other person's project but they only appear in your
 
 3 - **Collaborate with another person in a project**. 
 
-## Exercise #3:
+## Exercise #3
 
-Pair up with a neighbor. One of you be A and one be B for this exercise. You can work with your **My-First-Depository** folder.
+Pair up with a neighbor. One of you be A and one be B for this exercise. You can work with your **My-First-Repository** folder.
 
 - A: In the settings tab for A’s repository on Github.com (that A published above), add B as a collaborator.
    
-- B: Accept the invitation, and clone A’s repository so that you have it in your own computer. But unlike working in your own repository, don't work in the master copy. Instead, create a branch by clicking the Current Branch menu, click **New Branch** and then **Create Branch**. This way we'll make sure we send a pull request so that A will see our changes, instead of directly changing the original repository.
+- B: Accept the invitation, and clone A’s repository so that you have it in your own computer. 
 
-## Exercise #3:
+The rest is the same as working on your solo project.
 
-- B: Now make a change, e.g. "Edit 1 by Collab B", commit, and sync (push) the change. Click **Publish the Branch**. 
-
-- B: Go the the online main repository page. Click **Compare & Pull Request **. If everything looks fine, click **Create Pull Request**.
-
-- A: Go to Pull Requests tab and click on the change made by your partner. Click **Merge Pull Request** and **Confirm Merge**. 
+- B: Now make a change, e.g. "Edit 1 by Collab B", commit, and sync (push) the change.
 
 - Switch roles between A & B and repeat.
 
-## Some good habits:   
-- Commit often (<1hr)  
-- If you are collaborating, always pull before you start a new session of work. Also good to pull before pushing.    
+## Some good habits   
+- When you collaborate, you may not want to work in the master branch. You can instead create an experimental branch by clicking the **Current Branch** menu, **New Branch**, and then **Create Branch**. This way we'll make sure we can't directly push the changes and can send create a pull request so that person A will see our changes as well. Person A will see the change and merge the pull request. 
+- If you are collaborating, always sync before you start a new session of work. Also good to sync before pushing.    
+- You don't have to push every hour, but commit often (<1hr)  
 - Think of your remote as the most important set of files. Get used to deleting things in your local machine.    
 
-## Want to learn more: 
+## More resources
 
 - Software Carpentry's [step-by-step tutorial (command line)](https://swcarpentry.github.io/git-novice/).  
 
