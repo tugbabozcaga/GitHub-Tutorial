@@ -75,7 +75,8 @@ editor_options:
 
 ## Other reasons to use git
 
-###To access a whole new world of knowledge!  
+To access a whole new world of knowledge!  
+
 - Collaborate in others' open access projects (e.g. R packages). 
 - Find collaborators for your own projects. 
 
