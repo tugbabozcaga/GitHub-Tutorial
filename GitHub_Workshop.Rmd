@@ -18,17 +18,17 @@ editor_options:
 
 Slides: [https://github.com/tugbabozcaga/GitHub-Tutorial](https://github.com/tugbabozcaga/GitHub-Tutorial).
 
-Resource: Berkeley Initiative for Transparency in Social Sciences,  [https://www.bitss.org/](https://www.bitss.org/).
+Resource: Fernando Hoces's [\textcolor{blue}{Workshop}](https://github.com/BITSS/RT2_LOSANGELES_2018/blob/master/2-dynamicdocs/slides_w_beamer.pdf) from Berkeley Initiative for Transparency in Social Sciences.
 
 # What is Version Control
 
 ## What is Git
 
-- Git is a software designed to track the **entire** history of the code of a project. 
+- A software designed to track the history of the code (known as version control) of a project. 
 
-- Main appeal: facilitates full reproducibility and collaboration. 
+- Facilitates reproducibility and collaboration. 
 
-- Designed originally for software development, it has gained important traction in the research community. 
+- Designed originally for software development, but widely used in the research community today. 
 
 - With GUIs (GitHub Desktop) the learning curve decreased and benefits started to exceed the costs. 
 
@@ -36,36 +36,37 @@ Resource: Berkeley Initiative for Transparency in Social Sciences,  [https://www
 
 ## What is Git
 
-- By code git understands any type of plain text file (`myfile.R`, `myfile.do`, `.tex/.md/.txt/.csv/.etc`).
+- Git understands any type of plain text file (`myfile.R`, `myfile.do`, `.tex/.md/.txt/.csv/.etc`).
 
-- Files that are "non-human readable" are called binary files (`myfile.docx`, `myfile.xlxs`, `.pdf/.exe/.dta/.etc`).
+- Files that are "not trackable" are called binary files (`myfile.docx`, `myfile.xlxs`, `.pdf/.exe/.dta/.etc`).
 
-- Git can also detect changes in binary files, but it cannot show those changes.
+- Git can see the updated versions of binary files, but it cannot track or show the changes made in them.
 
 ## What is Github
 
-  Github is a company that provides two services (that we care of): 
+  Github provides two services: 
   
-- A web hosting service for all our files track with git (public free/private $ or free if academic).  
+- A web hosting service for all our files that we track with git (Public files are free, private files are free only for academics). 
+
 - A GUI software (Desktop App) that provides user friendly access to git.
 
-## Goal
+## Why to Use
 
-**Goal 1:** Keep track of any potentially meaningful modification to your code.  
+**1:** To keep track of all the important modifications to your code.  
 
-**Goal 2:** Learn how to collaborate with others using Github.   
+**2:** To learn how to collaborate with others using Github.   
 
 ## Conventional Method:  
 
-1 - Agree on a naming convention with you co-authors (eg: YYYYMMDDfilename_INITALS).  
-2 - Begin working from the last saved version (eg: `20180325demo_FH.do`).  
-3 - At the end of the day, save on a new version (eg: `20180327demo_FH.do`).  
+1 - Agree on a naming convention with your co-authors (eg: filename_date_INITALS).  
+2 - Always work from the last saved version (eg: `workshopcode_20181002_OB.do`).  
+3 - After your changes, save a new version (eg: `workshopcode_20181003_TB.do`).  
 
-**Pros:** Easy adoption.   
+Easily adopted but:    
 
-**Cons:** Lots of files for each document, hard to see changes of your own and others, hard to track the time of changes, errors and time costs.     
+Lots of files for each document, hard to see changes of your own and others, hard to track the time of changes, errors, and time costs.     
 
-## We want to avoid this situation 
+## Example
 
 \centering
 
@@ -74,16 +75,13 @@ Resource: Berkeley Initiative for Transparency in Social Sciences,  [https://www
 ## Github
 
 1 - Name your file `filename` (ideally `01_filename`).
-2 - Takes a snapshot of your work every time you complete relevant change. 
-3 - Updates your entire working folder in the cloud.   
+2 - Whenever you complete a relevant change and sync, Git takes a snapshot of your work.
+3 - Git keeps updating your entire folder in the cloud. Thus, it is visible to your collaborators too.   
+Harder adoption but: 
 
-**Pros:** One file per document, track differences across all versions, easily follow when others make a change, works with the cloud. 
+One file per document, track differences across all versions, easily follow when others make a change, easily follow the time of changes. 
 
-**Cons:** Harder adoption.   
-
-## Other reasons to use git
-
-To access a whole new world of knowledge!  
+## Additional Benefits
 
 - Collaborate in others' open access projects (e.g. R packages). 
 - Find collaborators for your own projects. 
@@ -186,7 +184,7 @@ The rest is the same as working on your solo project.
 
 - Switch roles between A & B and repeat.
 
-## Some good habits   
+## Tips 
 - When you collaborate, you may not want to work in the master branch. You can instead create an experimental branch by clicking the **Current Branch** menu, **New Branch**, and then **Create Branch**. This way we'll make sure we can't directly push the changes and can send create a pull request so that person A will see our changes as well. Person A will see the change and merge the pull request. 
 - If you are collaborating, always sync before you start a new session of work. Also good to sync before pushing.    
 - You don't have to push every hour, but commit often (<1hr)  
@@ -194,13 +192,10 @@ The rest is the same as working on your solo project.
 
 ## More resources
 
-- Software Carpentry's [step-by-step tutorial (command line)](https://swcarpentry.github.io/git-novice/).  
+- [textcolor{blue}{Intro to Git by Alice Bartlett}](https://www.youtube.com/watch?v=eWxxfttcMts)  
 
-- [Garret Christensen's version of this tutorial](https://github.com/BITSS/RT2Amsterdam2018/blob/master/1-GitDemo.md). 
+- Jenny Bryan's [textcolor{blue}{Happy Git}](http://happygitwithr.com/) and [textcolor{blue}{Tutorial to Github}] (https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/).
 
-- [Great 20 min intro to Git by Alice Bartlett](https://www.youtube.com/watch?v=eWxxfttcMts)  
-- [Great 2hr tutorial to Github by Jenny Bryan (git ninja)](https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/)
+- Karthik Ram's paper [textcolor{blue}{Git for Research}](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7).
 
-- Jenny Bryan's [Happy Git](http://happygitwithr.com/); [Documentation from Matthew Gentzkow Jesse Shapiro](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf); Karthik Ram's paper on [Git for Research](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7) 
-
-
+- Software Carpentry's [textcolor{blue}{step-by-step tutorial (command line)}](https://swcarpentry.github.io/git-novice/).
