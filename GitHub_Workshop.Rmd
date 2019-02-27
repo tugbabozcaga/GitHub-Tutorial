@@ -56,7 +56,7 @@ Resource: Fernando Hoces's [\textcolor{blue}{Workshop}](https://github.com/BITSS
 
 **2:** To learn how to collaborate with others using Github.   
 
-## Conventional Method:  
+## Conventional Method
 
 1 - Agree on a naming convention with your co-authors (eg: filename_date_INITALS).  
 2 - Always work from the last saved version (eg: `workshopcode_20181002_OB.do`).  
@@ -192,10 +192,10 @@ The rest is the same as working on your solo project.
 
 ## More resources
 
-- [textcolor{blue}{Intro to Git by Alice Bartlett}](https://www.youtube.com/watch?v=eWxxfttcMts)  
+- [\textcolor{blue}{Intro to Git by Alice Bartlett}](https://www.youtube.com/watch?v=eWxxfttcMts)  
 
-- Jenny Bryan's [textcolor{blue}{Happy Git}](http://happygitwithr.com/) and [textcolor{blue}{Tutorial to Github}] (https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/).
+- Jenny Bryan's [\textcolor{blue}{Happy Git}](http://happygitwithr.com/) and [textcolor{blue}{Tutorial to Github}] (https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/).
 
-- Karthik Ram's paper [textcolor{blue}{Git for Research}](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7).
+- Karthik Ram's paper [\textcolor{blue}{Git for Research}](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7).
 
-- Software Carpentry's [textcolor{blue}{step-by-step tutorial (command line)}](https://swcarpentry.github.io/git-novice/).
+- Software Carpentry's [\textcolor{blue}{step-by-step tutorial (command line)}](https://swcarpentry.github.io/git-novice/).
